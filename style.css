@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* A lighter background color */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #3498db; /* A pleasant blue color */
+  color: #fff;
+  padding: 15px; /* Increased padding for better visual separation */
+}
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Improved box shadow */
+  display: inline-block;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px; /* Slightly reduced font size for better readability */
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px; /* Matched with input font size */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9; /* A slightly darker blue on hover */
+}
+
+p#result {
+  font-size: 20px; /* Slightly reduced font size for the result */
+  margin: 10px;
+  color: #3498db; /* Matched with the button color */
+}
+
+footer {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

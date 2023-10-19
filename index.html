@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  <form>
+    <input type="text" id="amount" placeholder="Enter Amount">
+    <select id="from">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+      <option value="NGN">NGN</option>
+    </select>
+    <select id="to">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+      <option value="NGN">NGN</option>
+    </select>
+    <button id="convert">Convert</button>
+  </form>
+  <p id="result">Result: </p>
+  <div id="exchange-rates">
+    <p>Exchange Rates:</p>
+    <p id="usd-rate">USD: 1</p>
+    <p id="eur-rate">EUR: 1.2</p>
+    <p id="gbp-rate">GBP: 1.5</p>
+    <p id="ngn-rate">NGN: 0.0026</p>
+  </div>
+  <script src="script.js"></script>
+  <footer>&copy; Jehohimself</footer>
+</body>
+</html>
