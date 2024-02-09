@@ -33,7 +33,7 @@ convertEl.addEventListener("click", function() {
 });
 
 // Display exchange rates
-usdRateEl.innerText = `USD: 410 NGN`;
+usdRateEl.innerText = `USD: 1500 NGN`;
 eurRateEl.innerText = `EUR: 480 NGN`;
 gbpRateEl.innerText = `GBP: 570 NGN`;
-ngnRateEl.innerText = `NGN: 1/410 USD`;
+ngnRateEl.innerText = `NGN: 1/1500 USD`;
